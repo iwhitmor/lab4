@@ -1,14 +1,11 @@
 function makechoice(){
-var answer = prompt("Do you want a cut?")
-
-if (answer === "yes") {
-   alert("That's what I'm talking about!");
-}
-else if (answer === "no") {
-    alert("Aw shucks!")
-}
-else {
-    alert("Stay focused on your mission, remain steadfast in your pursuit of excellence, and come and get a sweet cut!")
+let answer = prompt("Do you want a cut?");
+for (let index = 1; index < 3; index++){
+   if(answer !== 'yes'){
+       answer = prompt ('Cmon, you know you need one. Try again, there is a better answer');
+   } else {
+    alert('Oh hell ya!');
+   index = 3;
+   }
 }
 }
-makechoice();
