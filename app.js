@@ -1,3 +1,4 @@
+function makechoice(){
 var answer = prompt("Do you want a cut?")
 
 if (answer === "yes") {
@@ -9,3 +10,5 @@ else if (answer === "no") {
 else {
     alert("Stay focused on your mission, remain steadfast in your pursuit of excellence, and come and get a sweet cut!")
 }
+}
+makechoice();
