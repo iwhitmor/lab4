@@ -39,7 +39,7 @@ section {
     width: 45%;
     float: right;
     font-weight: bold;
-    font-size: 110%;
+    font-size: larger;
     border: #2b2d42;
     border-radius: 10px;
 }
