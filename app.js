@@ -10,3 +10,7 @@ for (let index = 1; index < 3; index++){
 }
 }
 
+let usernumber = prompt ('Please enter a number from 1-10. If you guess correct, you win a free cut!')
+for (x = 0; x < usernumber; x++) {
+    document.write('&#9986;')
+}
